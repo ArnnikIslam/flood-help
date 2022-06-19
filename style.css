@@ -19,15 +19,24 @@ body {
   border-radius: 3px;
   padding: 30px 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: url('banner.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .header-content {
   font-family: 'Hind Siliguri', sans-serif;
   text-align: justify;
 }
+
+/*
+img {
+  height: 100%;
+  width: 100%;
+} */
 h1 {
   text-align: center;
   font-weight: bold;
-  color: #FF3D33;
+  color: white;
   padding: 5px;
   border-bottom: 2px dashed mediumseagreen;
 }
