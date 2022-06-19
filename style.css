@@ -1,0 +1,58 @@
+/* adding google font */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=Montserrat:wght@600&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #EAEFF2;
+}
+.container {
+  width: 85%;
+  margin: 50px auto;
+  background: white;
+  border-radius: 3px;
+  padding: 30px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-content {
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #FF3D33;
+  padding: 5px;
+  border-bottom: 2px dashed mediumseagreen;
+}
+.header-content > p {
+  background: #ECD5BB;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 1px solid #333;
+}
+button {
+  display: block;
+  font-weight: bolder;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: mediumseagreen;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 30px auto;
+}
+button:hover {
+  background: dodgerblue;
+  transition: 1s ease;
+}

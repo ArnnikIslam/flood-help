@@ -1,0 +1,71 @@
+/* adding google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&family=Tiro+Bangla&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #EAEFF2;
+}
+.container {
+  width: 90%;
+  margin: 30px auto;
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+figure {
+  text-align: center;
+}
+img {
+  height: 85px;
+  width: 80px;
+  text-align: center;
+}
+label {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+}
+input {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  padding: 7px 10px;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+input:hover {
+  border: 1.5px solid dodgerblue;
+}
+button {
+  display: block;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px auto;
+  background-color: rgb(84, 105, 212);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                rgb(84, 105, 212) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover {
+  background: dodgerblue;
+  transition: 1s ease;
+}
